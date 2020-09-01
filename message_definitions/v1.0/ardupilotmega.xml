@@ -1594,5 +1594,26 @@
       <field type="uint16_t[4]" name="rpm" units="rpm">RPM (eRPM).</field>
       <field type="uint16_t[4]" name="count">count of telemetry packets received (wraps at 65535).</field>
     </message>
+    <message id="228" name="WEATHER_INFO">
+      <description>Weather Status</description>
+      <field type="int32_t" name="heading_mag" units="">TODO</field>
+      <field type="int32_t" name="deviation_mag" units="">TODO</field>
+      <field type="int32_t" name="variation_mag" units="">TODO</field>
+      <field type="int32_t" name="heading_north" units="">TODO</field>
+      <field type="int32_t" name="wind_ang_bow" units="">TODO</field>
+      <field type="int32_t" name="wind_spd_rel" units="">TODO</field>
+      <field type="int32_t" name="wind_spd_the" units="">TODO</field>
+      <field type="int32_t" name="pressure_bar" units="">TODO</field>
+      <field type="int32_t" name="temp_celcius" units="">TODO</field>
+      <field type="int32_t" name="humid_rel" units="">TODO</field>
+      <field type="int32_t" name="wind_ang_north" units="">TODO</field>
+      <field type="int32_t" name="wind_ang_mag" units="">TODO</field>
+      <field type="int32_t" name="wind_spd_knot" units="">TODO</field>
+      <field type="int32_t" name="water_depth" units="">TODO</field>
+      <field type="int32_t" name="water_temp" units="">TODO</field>
+      <field type="int32_t" name="water_speed" units="">TODO</field>
+      <field type="int32_t" name="total_miles" units="">TODO</field>
+      <field type="int32_t" name="miles_since_reset" units="">TODO</field>
+    </message>
   </messages>
 </mavlink>
