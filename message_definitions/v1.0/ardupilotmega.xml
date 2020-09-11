@@ -1596,24 +1596,17 @@
     </message>
     <message id="228" name="WEATHER_INFO">
       <description>Weather Status</description>
-      <field type="int32_t" name="heading_mag" units="">TODO</field>
-      <field type="int32_t" name="deviation_mag" units="">TODO</field>
-      <field type="int32_t" name="variation_mag" units="">TODO</field>
-      <field type="int32_t" name="heading_north" units="">TODO</field>
-      <field type="int32_t" name="wind_ang_bow" units="">TODO</field>
-      <field type="int32_t" name="wind_spd_rel" units="">TODO</field>
-      <field type="int32_t" name="wind_spd_the" units="">TODO</field>
-      <field type="int32_t" name="pressure_bar" units="">TODO</field>
-      <field type="int32_t" name="temp_celcius" units="">TODO</field>
-      <field type="int32_t" name="humid_rel" units="">TODO</field>
-      <field type="int32_t" name="wind_ang_north" units="">TODO</field>
-      <field type="int32_t" name="wind_ang_mag" units="">TODO</field>
-      <field type="int32_t" name="wind_spd_knot" units="">TODO</field>
-      <field type="int32_t" name="water_depth" units="">TODO</field>
-      <field type="int32_t" name="water_temp" units="">TODO</field>
-      <field type="int32_t" name="water_speed" units="">TODO</field>
-      <field type="int32_t" name="total_miles" units="">TODO</field>
-      <field type="int32_t" name="miles_since_reset" units="">TODO</field>
+      <field type="float" name="wind_angle" units="degrees">Wind Angle, 0 to 359 degrees</field>
+      <field type="float" name="wind_speed_true" units="m/s">Wind Speed True</field>
+      <field type="float" name="wind_speed_relative" units="">Wind Speed Relative</field>
+      <field type="float" name="pressure_bar" units="bars">Barometric pressure</field>
+      <field type="float" name="air_temperature" units="degC">Air temperature</field>
+      <field type="float" name="relative_humidity" units="percent">Relative humidity</field>
+      <field type="float" name="water_depth" units="meters">Water depth relative to transducer</field>
+      <field type="float" name="water_temperature" units="degC">Water temperature</field>
+      <field type="float" name="water_speed" units="knots">Speed of vessel relative to the water</field>
+      <field type="float" name="total_miles" units="Nautical Miles">Total cumulative water distance</field>
+      <field type="float" name="miles_since_reset" units="Nautical Miles">Water distance since Reset</field>
     </message>
   </messages>
 </mavlink>
